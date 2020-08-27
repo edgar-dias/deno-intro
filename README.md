@@ -8,6 +8,8 @@ Backend Server:
 
 Frontend Server:
 
+> cd node-frontend-app/
+
 > npm install
 
 > npm start
