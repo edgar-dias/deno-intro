@@ -1,16 +1,27 @@
 # deno-intro
 Deno introduction
 
-Backend Server:
+## Backend Server:
 
-> deno run --allow-net --unstable --allow-read --allow-write --allow-plugin deno/app.ts
+Run the server:
+```bash
+ > deno run --unstable --allow-plugin --allow-read --allow-write --allow-env --allow-net deno/app.ts
+``` 
 
+## Frontend Server:
 
-Frontend Server:
+Enter the front end directory:
+```bash
+ > cd node-frontend-app
+```
 
-> cd node-frontend-app/
+On first run you need to install dependencies:
+```bash
+ > npm install
+```
 
-> npm install
-
-> npm start
+Run the client:
+```bash
+ > npm start
+```
 
